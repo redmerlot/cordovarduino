@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <plugin xmlns="http://www.phonegap.com/ns/plugins/1.0"
-    id="fr.drangies.cordova.serial"
+    id="com.openapp.cordova.serial"
     version="0.0.2">
     <name>Serial</name>
     <description>Cordova plugin to communicate with the android USB serial port</description>
