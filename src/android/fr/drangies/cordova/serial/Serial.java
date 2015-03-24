@@ -55,7 +55,7 @@ public class Serial extends CordovaPlugin {
     // The serial port that will be used in this plugin
     private UsbSerialPort port;
     // Read buffer, and read params
-    private static final int READ_WAIT_MILLIS = 200;
+    private static final int READ_WAIT_MILLIS = 500;
     private static final int BUFSIZ = 4096;
     private final ByteBuffer mReadBuffer = ByteBuffer.allocate(BUFSIZ);
     // Connection info
